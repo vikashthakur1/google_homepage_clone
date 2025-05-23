@@ -1,8 +1,9 @@
+
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #242424;
+  --foreground: #fdfdfd;
 }
 
 @theme inline {
@@ -23,4 +24,17 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+.google{
+  font-size: 120px;
+}
+.input1{
+  background-color: #d6cdcd;
+  border-radius: 10px;
+  
 }
