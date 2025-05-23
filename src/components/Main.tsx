@@ -1,11 +1,10 @@
 'use client';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 export default function Main(){
-    const [query, setQuery] = useState('');
-  const router = useRouter();
+  const [query, setQuery] = useState('');
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
